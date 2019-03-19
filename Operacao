@@ -1,0 +1,12 @@
+public class Operacao {
+	
+	private double num1, num2, resultado;
+	
+	public void Subtrair () {
+		resultado = num1-num2;
+	}
+	
+	public double calcularMediaPonderada(double num1, double num2){
+		return ((num1+num2)/2);
+	}
+}
