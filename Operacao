@@ -1,5 +1,6 @@
 public class Operacao {
 	
+	private int i;
 	private double num1, num2, resultado;
 	
 	public void Subtrair () {
@@ -9,4 +10,31 @@ public class Operacao {
 	public double calcularMediaPonderada(double num1, double num2){
 		return ((num1+num2)/2);
 	}
+	
+	public double calcularPotencia(){
+        resultado = 1;
+        i = 0;
+        
+        if(num2 == 0)
+            return resultado;
+        else{
+            while(i < num2){
+            resultado = resultado*num1;
+            i++;
+           }    
+        }
+        
+        return resultado;
+    }
+    
+    public int calcularFatorial(num1){
+        i = 0;
+        resultado = 1;
+        while(i < num1-1){
+           resultado = resultado*(num1-i);
+           i ++;
+        }
+        
+        return resultado;
+       }
 }
