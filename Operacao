@@ -27,7 +27,7 @@ public class Operacao {
         return resultado;
     }
     
-    public int calcularFatorial(num1){
+    public double calcularFatorial(double num1){
         i = 0;
         resultado = 1;
         while(i < num1-1){
