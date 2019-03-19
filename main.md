@@ -19,14 +19,14 @@ public class Main
                 System.out.println("Insira os numeros que deseja subtrair:");
                 num1 = l.nextDouble();
                 num2 = l.nextDouble();
-                operacao.subtrair();
+                operacao.subtrair(num1,num2);
             }
             
             if(opcao == 2){
                 System.out.println("Insira primeiro o numero, em seguida a potencia:");
                 num1 = l.nextDouble();
                 num2 = l.nextInt();
-                pot = operacao.calcularPotencia();
+                pot = operacao.calcularPotencia(num1,num2);
                 System.out.println(pot);
             }
             
@@ -34,15 +34,14 @@ public class Main
                 System.out.println("Insira os dois numeros que deseja saber a media ponderada:");
                 num1 = l.nextDouble();
                 num2 = l.nextDouble();
-                med = operacao.calcularMediaPonderada(operacao.num1, operacao.num2);
+                med = operacao.calcularMediaPonderada(num1, num2);
                 System.out.println(med);
             }
             
             if(opcao == 4){
                 System.out.println("Insira o numero (inteiro) cujo fatorial deseja saber:");
                 num1 = l.nextInt();
-                operacao.calcularFatorial(operacao.num3);
-        
+                operacao.calcularFatorial(num1);
             }
             
             if(opcao == 5){
