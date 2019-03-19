@@ -20,10 +20,7 @@ public class Main
             }
             
             if(opcao == 2){
-                System.out.println("Insira primeiro o numero, em seguida a potencia:");
-                num1 = l.nextDouble();
-                num2 = l.nextInt();
-                pot = operacao.calcularPotencia(num1,num2);
+                pot = operacao.calcularPotencia();
                 System.out.println(pot);
             }
             
