@@ -16,10 +16,7 @@ public class Main
             opcao = l.nextInt();
         
             if(opcao == 1){
-                System.out.println("Insira os numeros que deseja subtrair:");
-                num1 = l.nextDouble();
-                num2 = l.nextDouble();
-                operacao.subtrair(num1,num2);
+                operacao.Subtrair();
             }
             
             if(opcao == 2){
